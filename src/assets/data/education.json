@@ -1,0 +1,34 @@
+[
+    {
+        "id": 0,
+        "name": "Lycée St Louis Technique",
+        "location": "La Roche sur Yon",
+        "country": "85",
+        "section": "Baccalauréat Professionnel de la Construction : Etudes et Economies de la Construction",
+        "timeline": "Septembre 2011 à Juin 2014"
+    },
+    {
+        "id": 1,
+        "name": "42",
+        "location": "Paris",
+        "country": "75",
+        "section": "Piscine 42",
+        "timeline": "Juillet 2014"
+    },
+    {
+        "id": 2,
+        "name": "Campus St Charles Ste Croix",
+        "location": "Le Mans",
+        "country": "72",
+        "section": "Brevet de Technicien Supérieur : Services Informatiques aux Organisations Option SLAM",
+        "timeline": "Septembre 2014 à Juin 2017"
+    },
+    {
+        "id": 3,
+        "name": "Les Etablières",
+        "location": "La Roche sur Yon",
+        "country": "85",
+        "section": "Concepteur Réalisateur Web et Digital",
+        "timeline": "Septembre 2017 à Juin 2018"
+    }
+]

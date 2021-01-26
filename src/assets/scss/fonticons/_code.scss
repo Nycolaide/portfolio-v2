@@ -1,0 +1,305 @@
+$icomoon-font-family: "code" !default;
+$icomoon-font-path: "/icons/Code" !default;
+$icomoon-id: "3tur2m" !default;
+
+@font-face {
+  font-family: "#{$icomoon-font-family}";
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?#{$icomoon-id}");
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?#{$icomoon-id}#iefix")
+      format("embedded-opentype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?#{$icomoon-id}")
+      format("truetype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?#{$icomoon-id}")
+      format("woff"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?#{$icomoon-id}##{$icomoon-font-family}")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "#{$icomoon-font-family}" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.code-github {
+  &:before {
+    content: $code-github;
+  }
+}
+.code-merise {
+  &:before {
+    content: $code-merise;
+  }
+}
+.code-uml {
+  &:before {
+    content: $code-uml;
+  }
+}
+.code-clippaintstudio {
+  &:before {
+    content: $code-clippaintstudio;
+  }
+}
+.code-git {
+  &:before {
+    content: $code-git;
+    color: #f05133;
+  }
+}
+.code-gitlab {
+  &:before {
+    content: $code-gitlab;
+  }
+}
+.code-gesweb {
+  &:before {
+    content: $code-gesweb;
+  }
+}
+.code-prestashop {
+  &:before {
+    content: $code-prestashop;
+  }
+}
+.code-angular {
+  &:before {
+    content: $code-angular;
+  }
+}
+.code-asp {
+  &:before {
+    content: $code-asp;
+  }
+}
+.code-bootstrap {
+  &:before {
+    content: $code-bootstrap;
+  }
+}
+.code-csharp {
+  &:before {
+    content: $code-csharp;
+  }
+}
+.code-css {
+  &:before {
+    content: $code-css;
+  }
+}
+.code-html {
+  &:before {
+    content: $code-html;
+  }
+}
+.code-joomla {
+  &:before {
+    content: $code-joomla;
+  }
+}
+.code-jquery {
+  &:before {
+    content: $code-jquery;
+  }
+}
+.code-js {
+  &:before {
+    content: $code-js;
+  }
+}
+.code-less {
+  &:before {
+    content: $code-less;
+  }
+}
+.code-mongodb {
+  &:before {
+    content: $code-mongodb;
+  }
+}
+.code-mysql {
+  &:before {
+    content: $code-mysql;
+  }
+}
+.code-neo4j {
+  &:before {
+    content: $code-neo4j;
+  }
+}
+.code-nodejs {
+  &:before {
+    content: $code-nodejs;
+  }
+}
+.code-php {
+  &:before {
+    content: $code-php;
+  }
+}
+.code-python {
+  &:before {
+    content: $code-python;
+  }
+}
+.code-react {
+  &:before {
+    content: $code-react;
+  }
+}
+.code-sass {
+  &:before {
+    content: $code-sass;
+  }
+}
+.code-sql {
+  &:before {
+    content: $code-sql;
+  }
+}
+.code-sqlserver {
+  &:before {
+    content: $code-sqlserver;
+  }
+}
+.code-sublimetext {
+  &:before {
+    content: $code-sublimetext;
+  }
+}
+.code-visualstudio {
+  &:before {
+    content: $code-visualstudio;
+  }
+}
+.code-vue {
+  &:before {
+    content: $code-vue;
+  }
+}
+.code-vuetify {
+  &:before {
+    content: $code-vuetify;
+  }
+}
+.code-webpack {
+  &:before {
+    content: $code-webpack;
+  }
+}
+.code-wordpress {
+  &:before {
+    content: $code-wordpress;
+  }
+}
+.code-vb {
+  &:before {
+    content: $code-vb;
+  }
+}
+.code-office {
+  &:before {
+    content: $code-office;
+  }
+}
+.code-photoshop {
+  &:before {
+    content: $code-photoshop;
+  }
+}
+.code-quill {
+  &:before {
+    content: $code-quill;
+  }
+}
+.code-illustrator {
+  &:before {
+    content: $code-illustrator;
+  }
+}
+.code-craftmycms {
+  &:before {
+    content: $code-craftmycms;
+  }
+}
+.code-experience {
+  &:before {
+    content: $code-experience;
+  }
+}
+.code-emajine {
+  &:before {
+    content: $code-emajine;
+  }
+}
+.code-apache {
+  &:before {
+    content: $code-apache;
+  }
+}
+.code-xml {
+  &:before {
+    content: $code-xml;
+  }
+}
+.code-json {
+  &:before {
+    content: $code-json;
+  }
+}
+.code-autocad {
+  &:before {
+    content: $code-autocad;
+  }
+}
+.code-googlesketchup {
+  &:before {
+    content: $code-googlesketchup;
+  }
+}
+.code-vs {
+  &:before {
+    content: $code-vs;
+  }
+}
+.code-embed {
+  &:before {
+    content: $code-embed;
+  }
+}
+.code-trello {
+  &:before {
+    content: $code-trello;
+  }
+}
+.code-linux {
+  &:before {
+    content: $code-linux;
+  }
+}
+.code-apple {
+  &:before {
+    content: $code-apple;
+  }
+}
+.code-android {
+  &:before {
+    content: $code-android;
+  }
+}
+.code-windows {
+  &:before {
+    content: $code-windows;
+  }
+}

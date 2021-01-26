@@ -1,0 +1,240 @@
+$icomoon-font-family: "coding" !default;
+$icomoon-font-path: "/icons/Coding" !default;
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?xyabx3');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?xyabx3#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?xyabx3') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?xyabx3') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?xyabx3##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="coding-"], [class*=" coding-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.coding-angular {
+  &:before {
+    content: $coding-angular; 
+  }
+}
+.coding-asp {
+  &:before {
+    content: $coding-asp; 
+  }
+}
+.coding-bootstrap {
+  &:before {
+    content: $coding-bootstrap; 
+  }
+}
+.coding-csharp {
+  &:before {
+    content: $coding-csharp; 
+  }
+}
+.coding-css {
+  &:before {
+    content: $coding-css; 
+  }
+}
+.coding-html {
+  &:before {
+    content: $coding-html; 
+  }
+}
+.coding-joomla {
+  &:before {
+    content: $coding-joomla; 
+  }
+}
+.coding-jquery {
+  &:before {
+    content: $coding-jquery; 
+  }
+}
+.coding-js {
+  &:before {
+    content: $coding-js; 
+  }
+}
+.coding-less {
+  &:before {
+    content: $coding-less; 
+  }
+}
+.coding-mongodb {
+  &:before {
+    content: $coding-mongodb; 
+  }
+}
+.coding-mysql {
+  &:before {
+    content: $coding-mysql; 
+  }
+}
+.coding-neo4j {
+  &:before {
+    content: $coding-neo4j; 
+  }
+}
+.coding-nodejs {
+  &:before {
+    content: $coding-nodejs; 
+  }
+}
+.coding-php {
+  &:before {
+    content: $coding-php; 
+  }
+}
+.coding-python {
+  &:before {
+    content: $coding-python; 
+  }
+}
+.coding-react {
+  &:before {
+    content: $coding-react; 
+  }
+}
+.coding-sass {
+  &:before {
+    content: $coding-sass; 
+  }
+}
+.coding-sql {
+  &:before {
+    content: $coding-sql; 
+  }
+}
+.coding-sqlserver {
+  &:before {
+    content: $coding-sqlserver; 
+  }
+}
+.coding-sublimetext {
+  &:before {
+    content: $coding-sublimetext; 
+  }
+}
+.coding-visualstudio {
+  &:before {
+    content: $coding-visualstudio; 
+  }
+}
+.coding-vue {
+  &:before {
+    content: $coding-vue; 
+  }
+}
+.coding-vuetify {
+  &:before {
+    content: $coding-vuetify; 
+  }
+}
+.coding-webpack {
+  &:before {
+    content: $coding-webpack; 
+  }
+}
+.coding-wordpress {
+  &:before {
+    content: $coding-wordpress; 
+  }
+}
+.coding-vb {
+  &:before {
+    content: $coding-vb; 
+  }
+}
+.coding-office {
+  &:before {
+    content: $coding-office; 
+  }
+}
+.coding-photoshop {
+  &:before {
+    content: $coding-photoshop; 
+  }
+}
+.coding-quill {
+  &:before {
+    content: $coding-quill; 
+  }
+}
+.coding-illustrator {
+  &:before {
+    content: $coding-illustrator; 
+  }
+}
+.coding-craftmycms {
+  &:before {
+    content: $coding-craftmycms; 
+  }
+}
+.coding-experience {
+  &:before {
+    content: $coding-experience; 
+  }
+}
+.coding-emajine {
+  &:before {
+    content: $coding-emajine; 
+  }
+}
+.coding-apache {
+  &:before {
+    content: $coding-apache; 
+  }
+}
+.coding-xml {
+  &:before {
+    content: $coding-xml; 
+  }
+}
+.coding-json {
+  &:before {
+    content: $coding-json; 
+  }
+}
+.coding-autocad {
+  &:before {
+    content: $coding-autocad; 
+  }
+}
+.coding-googlesketchup {
+  &:before {
+    content: $coding-googlesketchup; 
+  }
+}
+.coding-vs {
+  &:before {
+    content: $coding-vs; 
+  }
+}
+.coding-embed {
+  &:before {
+    content: $coding-embed; 
+  }
+}
+.coding-trello {
+  &:before {
+    content: $coding-trello; 
+  }
+}
+

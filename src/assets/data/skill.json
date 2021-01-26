@@ -1,0 +1,472 @@
+[
+  {
+    "id": 0,
+    "name": "HTML",
+    "icon": "code-html",
+    "color": "#de4b25",
+    "category": "f-e",
+    "link": "https://www.w3.org/html/",
+    "score": 80,
+    "workit": false
+  },
+  {
+    "id": 1,
+    "name": "CSS",
+    "icon": "code-css",
+    "color": "#2349e4",
+    "category": "f-e",
+    "link": "https://www.w3.org/Style/CSS/Overview.fr.html",
+    "score": 80,
+    "workit": false
+  },
+  {
+    "id": 2,
+    "name": "Javascript",
+    "icon": "code-js",
+    "color": "#f0d81d",
+    "category": "f-e",
+    "link": "https://www.javascript.com/",
+    "score": 70,
+    "workit": true
+  },
+  {
+    "id": 3,
+    "name": "PHP",
+    "icon": "code-php",
+    "color": "#5c7eb5",
+    "category": "b-e",
+    "link": "https://www.php.net/",
+    "score": 70,
+    "workit": true
+  },
+  {
+    "id": 4,
+    "name": "Vue.js",
+    "icon": "code-vue",
+    "color": "#3fb37f",
+    "category": "f-e",
+    "link": "https://vuejs.org/",
+    "score": 70,
+    "workit": true
+  },
+  {
+    "id": 5,
+    "name": "Vuetify",
+    "icon": "code-vuetify",
+    "color": "#77c1f8",
+    "category": "f-e",
+    "link": "https://vuetifyjs.com/en/",
+    "score": 60,
+    "workit": true
+  },
+  {
+    "id": 6,
+    "name": "VueMaterial",
+    "icon": "code-vue",
+    "color": "#aef857",
+    "category": "f-e",
+    "link": "https://vuematerial.io/",
+    "score": 40,
+    "workit": false
+  },
+  {
+    "id": 7,
+    "name": "Angular.js",
+    "icon": "code-angular",
+    "color": "#dc3134",
+    "category": "f-e",
+    "link": "https://angular.io/",
+    "score": 10,
+    "workit": false
+  },
+  {
+    "id": 8,
+    "name": "Sass",
+    "icon": "code-sass",
+    "category": "f-e",
+    "color": "#c76396",
+    "link": "https://sass-lang.com/",
+    "score": 90,
+    "workit": true
+  },
+  {
+    "id": 9,
+    "name": "Less",
+    "icon": "code-less",
+    "color": "#234e88",
+    "category": "f-e",
+    "link": "http://lesscss.org/",
+    "score": 70,
+    "workit": false
+  },
+  {
+    "id": 10,
+    "name": "JSON",
+    "icon": "code-json",
+    "color": "#2783a0",
+    "category": "f-e",
+    "link": "https://www.json.org/json-fr.html",
+    "score": 90,
+    "workit": false
+  },
+  {
+    "id": 11,
+    "name": "XML",
+    "icon": "code-xml",
+    "color": "#cf0000",
+    "category": "f-e",
+    "link": "https://www.w3.org/XML/",
+    "score": 90,
+    "workit": false
+  },
+  {
+    "id": 12,
+    "name": "Bootstrap",
+    "icon": "code-bootstrap",
+    "color": "#543a78",
+    "category": "f-e",
+    "link": "https://getbootstrap.com/",
+    "score": 50,
+    "workit": false
+  },
+  {
+    "id": 13,
+    "name": "JQuery",
+    "icon": "code-jquery",
+    "color": "#20a7dc",
+    "category": "f-e",
+    "link": "https://jquery.com/",
+    "score": 50,
+    "workit": false
+  },
+  {
+    "id": 14,
+    "name": "Visual Basic",
+    "icon": "code-vb",
+    "color": "#d8c636",
+    "category": "b-e",
+    "link": "https://docs.microsoft.com/fr-fr/dotnet/visual-basic/",
+    "score": 30,
+    "workit": false
+  },
+  {
+    "id": 15,
+    "name": "VB script",
+    "icon": "code-vb",
+    "color": "#bf743b",
+    "category": "b-e",
+    "link": "https://docs.microsoft.com/en-us/windows/win32/lwef/using-vbscript",
+    "score": 50,
+    "workit": false
+  },
+  {
+    "id": 16,
+    "name": "SQL",
+    "icon": "code-sql",
+    "color": "#2583c8",
+    "category": "b-e",
+    "link": "https://sql.sh/",
+    "score": 70,
+    "workit": true
+  },
+  {
+    "id": 17,
+    "name": "Python",
+    "icon": "code-python",
+    "color": "#f7d049",
+    "category": "b-e",
+    "link": "https://www.python.org/",
+    "score": 30,
+    "workit": false
+  },
+  {
+    "id": 18,
+    "name": "Wordpress",
+    "icon": "code-wordpress",
+    "color": "#207296",
+    "category": "cms",
+    "link": "https://developer.wordpress.org/",
+    "score": 70,
+    "workit": false
+  },
+  {
+    "id": 19,
+    "name": "CraftmyCMS",
+    "icon": "code-craftmycms",
+    "color": "#26abb8",
+    "category": "cms",
+    "link": "https://google.fr",
+    "score": 70,
+    "workit": false
+  },
+  {
+    "id": 20,
+    "name": "E-majine",
+    "icon": "code-emajine",
+    "color": "#009bcb",
+    "category": "cms",
+    "link": "https://www.e-majine.com/",
+    "score": 40,
+    "workit": false
+  },
+  {
+    "id": 21,
+    "name": "Joomla",
+    "icon": "code-joomla",
+    "color": "#f2a93f",
+    "category": "cms",
+    "link": "https://www.joomla.fr/",
+    "score": 40,
+    "workit": false
+  },
+  {
+    "id": 22,
+    "name": "Prestashop",
+    "icon": "code-prestashop",
+    "color": "#dc066c",
+    "category": "cms",
+    "link": "https://www.prestashop.com/fr",
+    "score": 20,
+    "workit": false
+  },
+  {
+    "id": 23,
+    "name": "Gesweb",
+    "icon": "code-gesweb",
+    "color": "#74bae1",
+    "category": "cms",
+    "link": "http://www.gesweb.net/home.asp",
+    "score": 100,
+    "workit": false
+  },
+  {
+    "id": 24,
+    "name": "Windows xp à 10",
+    "icon": "code-windows",
+    "color": "#00a8eb",
+    "category": "os",
+    "link": "https://www.microsoft.com/fr-fr/windows",
+    "score": 90,
+    "workit": false
+  },
+  {
+    "id": 25,
+    "name": "Ubuntu 16.04",
+    "icon": "code-linux",
+    "color": "#f85521",
+    "category": "os",
+    "link": "https://ubuntu-fr.org/",
+    "score": 60,
+    "workit": false
+  },
+  {
+    "id": 26,
+    "name": "Mac Os 10.1 à 10.6",
+    "icon": "code-apple",
+    "color": "#6b6a70",
+    "category": "os",
+    "link": "https://www.apple.com/fr/macos/big-sur/",
+    "score": 90,
+    "workit": false
+  },
+  {
+    "id": 27,
+    "name": "Android v6 à v10",
+    "icon": "code-android",
+    "color": "#31d880",
+    "category": "os",
+    "link": "https://www.android.com/intl/fr_fr/",
+    "score": 70,
+    "workit": false
+  },
+  {
+    "id": 28,
+    "name": "Visual Studio Code",
+    "icon": "code-vs",
+    "color": "#46aaeb",
+    "category": "soft-dev",
+    "link": "hhttps://code.visualstudio.com/",
+    "score": 80,
+    "workit": false
+  },
+  {
+    "id": 29,
+    "name": "Visual Studio",
+    "icon": "code-vs",
+    "color": "#825bbf",
+    "category": "soft-dev",
+    "link": "https://visualstudio.microsoft.com/fr/",
+    "score": 60,
+    "workit": false
+  },
+  {
+    "id": 30,
+    "name": "SQL Serveur",
+    "icon": "code-sqlserver",
+    "color": "#b21a1a",
+    "category": "soft-dev",
+    "link": "https://www.microsoft.com/fr-fr/sql-server/sql-server-2019",
+    "score": 70,
+    "workit": false
+  },
+  {
+    "id": 31,
+    "name": "GitHub",
+    "icon": "code-github",
+    "color": "#edc5ad",
+    "category": "soft-dev",
+    "link": "https://github.com/",
+    "score": 70,
+    "workit": false
+  },
+  {
+    "id": 32,
+    "name": "GitLab",
+    "icon": "code-gitlab",
+    "color": "#dc4128",
+    "category": "soft-dev",
+    "link": "https://gitlab.com/",
+    "score": 60,
+    "workit": false
+  },
+  {
+    "id": 33,
+    "name": "Git",
+    "icon": "code-git",
+    "color": "#ed3323",
+    "category": "soft-dev",
+    "link": "https://git-scm.com/",
+    "score": 60,
+    "workit": false
+  },
+  {
+    "id": 34,
+    "name": "MySQL",
+    "icon": "code-mysql",
+    "color": "#005e87",
+    "category": "soft-dev",
+    "link": "https://www.mysql.com/fr/",
+    "score": 50,
+    "workit": false
+  },
+  {
+    "id": 35,
+    "name": "Suite Office",
+    "icon": "code-office",
+    "color": "#e53a00",
+    "category": "soft",
+    "link": "https://www.microsoft.com/fr-fr/microsoft-365/microsoft-office",
+    "score": 70,
+    "workit": false
+  },
+  {
+    "id": 36,
+    "name": "Adobe Xd",
+    "icon": "code-experience",
+    "color": "#f85eef",
+    "category": "create",
+    "link": "https://www.adobe.com/fr/products/xd.html",
+    "score": 60,
+    "workit": false
+  },
+  {
+    "id": 37,
+    "name": "Adobe Illustrator",
+    "icon": "code-illustrator",
+    "color": "#f89600",
+    "category": "create",
+    "link": "https://www.adobe.com/fr/products/illustrator.html",
+    "score": 70,
+    "workit": false
+  },
+  {
+    "id": 38,
+    "name": "Adobe Photoshop",
+    "icon": "code-photoshop",
+    "color": "#30a3f8",
+    "category": "create",
+    "link": "https://www.adobe.com/fr/products/photoshop.html",
+    "score": 40,
+    "workit": false
+  },
+  {
+    "id": 39,
+    "name": "Clip Studio Paint",
+    "icon": "code-clippaintstudio",
+    "color": "#528cc7",
+    "category": "create",
+    "link": "https://www.clipstudio.net/fr/",
+    "score": 50,
+    "workit": false
+  },
+  {
+    "id": 40,
+    "name": "Merise",
+    "icon": "code-merise",
+    "color": "#0e5886",
+    "category": "metho",
+    "link": "https://fr.wikipedia.org/wiki/Merise_(informatique)",
+    "score": 60,
+    "workit": false
+  },
+  {
+    "id": 41,
+    "name": "Merise 2",
+    "icon": "code-merise",
+    "color": "#0e5886",
+    "category": "metho",
+    "link": "https://fr.wikipedia.org/wiki/Merise_(informatique)",
+    "score": 80,
+    "workit": false
+  },
+  {
+    "id": 42,
+    "name": "UML",
+    "icon": "code-uml",
+    "color": "#f4b815",
+    "category": "metho",
+    "link": "https://fr.wikipedia.org/wiki/UML_(informatique)",
+    "score": 60,
+    "workit": false
+  },
+  {
+    "id": 43,
+    "name": "AutoCad",
+    "icon": "code-autocad",
+    "color": "#ba2122",
+    "category": "create",
+    "link": "https://www.autodesk.fr/",
+    "score": 40,
+    "workit": false
+  },
+  {
+    "id": 44,
+    "name": "ArchiCad",
+    "icon": "code-autocad",
+    "color": "#3a60b9",
+    "category": "create",
+    "link": "https://archicad.fr/",
+    "score": 20,
+    "workit": false
+  },
+  {
+    "id": 45,
+    "name": "Google Sketchup",
+    "icon": "code-googlesketchup",
+    "color": "#f81100",
+    "category": "create",
+    "link": "https://www.sketchup.com/fr",
+    "score": 40,
+    "workit": false
+  },
+  {
+    "id": 46,
+    "name": "ASP Classic",
+    "icon": "code-asp",
+    "color": "#01badb",
+    "category": "b-e",
+    "link": "https://www.w3schools.com/asp/default.ASP",
+    "score": 60,
+    "workit": false
+  }
+]

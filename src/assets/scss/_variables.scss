@@ -1,0 +1,213 @@
+//VUETIFY FONTS
+$body-font-family: "Montserrat", sans-serif;
+$heading-font-family: "Montserrat", sans-serif;
+$headingh5-font-family: "Montserrat-Black" sans-serif;
+
+$headings: (
+  "h1": (
+    "size": 112px,
+    "weight": 300,
+    "line-height": 1,
+    "letter-spacing": -0.04em,
+    "font-family": $heading-font-family,
+  ),
+  "h2": (
+    "size": 56px,
+    "weight": 400,
+    "line-height": 1.35,
+    "letter-spacing": -0.02em,
+    "font-family": $heading-font-family,
+  ),
+  "h3": (
+    "size": 45px,
+    "weight": 400,
+    "line-height": 48px,
+    "letter-spacing": normal,
+    "font-family": $heading-font-family,
+  ),
+  "h4": (
+    "size": 34px,
+    "weight": 400,
+    "line-height": 40px,
+    "letter-spacing": normal,
+    "font-family": $heading-font-family,
+  ),
+  "h5": (
+    "size": 24px,
+    "weight": 400,
+    "line-height": 32px,
+    "letter-spacing": normal,
+    "font-family": $heading-font-family,
+  ),
+  "h6": (
+    "size": 20px,
+    "weight": 500,
+    "line-height": 1,
+    "letter-spacing": 0.02em,
+    "font-family": $heading-font-family,
+  ),
+  "subheading": (
+    "size": 16px,
+    "weight": 400,
+  ),
+  "body-2": (
+    "size": 14px,
+    "weight": 500,
+  ),
+  "body-1": (
+    "size": 14px,
+    "weight": 400,
+  ),
+  "caption": (
+    "size": 12px,
+    "weight": 400,
+  ),
+  "button": (
+    "size": 14px,
+    "weight": 500,
+  ),
+);
+
+.v-application {
+  .text-h1,
+  .text-h2,
+  .text-h3,
+  .text-h5,
+  .headline,
+  .title,
+  .subtitle-1,
+  .subtitle-2,
+  .body-1,
+  .body-2,
+  .caption,
+  .overline {
+    font-family: $body-font-family !important;
+  }
+}
+
+//POLICY
+$path_fonts: "";
+
+//ICONS
+
+//coding
+$coding-angular: "\e900";
+$coding-asp: "\e901";
+$coding-bootstrap: "\e902";
+$coding-csharp: "\e903";
+$coding-css: "\e904";
+$coding-html: "\e905";
+$coding-joomla: "\e906";
+$coding-jquery: "\e907";
+$coding-js: "\e908";
+$coding-less: "\e90a";
+$coding-mongodb: "\e90b";
+$coding-mysql: "\e90c";
+$coding-neo4j: "\e90d";
+$coding-nodejs: "\e90f";
+$coding-php: "\e910";
+$coding-python: "\e911";
+$coding-react: "\e912";
+$coding-sass: "\e913";
+$coding-sql: "\e914";
+$coding-sqlserver: "\e915";
+$coding-sublimetext: "\e916";
+$coding-visualstudio: "\e918";
+$coding-vue: "\e919";
+$coding-vuetify: "\e91a";
+$coding-webpack: "\e91b";
+$coding-wordpress: "\e91c";
+$coding-vb: "\e91f";
+$coding-office: "\e920";
+$coding-photoshop: "\e922";
+$coding-quill: "\e924";
+$coding-illustrator: "\e925";
+$coding-craftmycms: "\e926";
+$coding-experience: "\e927";
+$coding-emajine: "\e92c";
+$coding-apache: "\e92d";
+$coding-xml: "\e92e";
+$coding-json: "\e92f";
+$coding-autocad: "\e930";
+$coding-googlesketchup: "\e931";
+$coding-vs: "\e938";
+$coding-embed: "\ea80";
+$coding-trello: "\eab3";
+
+//Code
+$code-github: "\e901";
+$code-merise: "\e900";
+$code-uml: "\e902";
+$code-clippaintstudio: "\e903";
+$code-git: "\e904";
+$code-gitlab: "\e905";
+$code-gesweb: "\e906";
+$code-prestashop: "\e907";
+$code-angular: "\e909";
+$code-asp: "\e90a";
+$code-bootstrap: "\e90b";
+$code-csharp: "\e90c";
+$code-css: "\e90d";
+$code-html: "\e90e";
+$code-joomla: "\e90f";
+$code-jquery: "\e910";
+$code-js: "\e911";
+$code-less: "\e912";
+$code-mongodb: "\e913";
+$code-mysql: "\e914";
+$code-neo4j: "\e915";
+$code-nodejs: "\e916";
+$code-php: "\e917";
+$code-python: "\e918";
+$code-react: "\e919";
+$code-sass: "\e91a";
+$code-sql: "\e91b";
+$code-sqlserver: "\e91c";
+$code-sublimetext: "\e91d";
+$code-visualstudio: "\e91e";
+$code-vue: "\e91f";
+$code-vuetify: "\e920";
+$code-webpack: "\e921";
+$code-wordpress: "\e922";
+$code-vb: "\e923";
+$code-office: "\e924";
+$code-photoshop: "\e925";
+$code-quill: "\e926";
+$code-illustrator: "\e927";
+$code-craftmycms: "\e928";
+$code-experience: "\e929";
+$code-emajine: "\e92c";
+$code-apache: "\e92d";
+$code-xml: "\e92e";
+$code-json: "\e92f";
+$code-autocad: "\e930";
+$code-googlesketchup: "\e931";
+$code-vs: "\e938";
+$code-embed: "\ea80";
+$code-trello: "\eab3";
+$code-linux: "\eabd";
+$code-apple: "\eabe";
+$code-android: "\eac0";
+$code-windows: "\eac2";
+
+//social
+$social-discord: "\e900";
+$social-github: "\e901";
+$social-medium: "\e902";
+$social-snapchat: "\e903";
+$social-twitch: "\e904";
+$social-googleplus: "\ea8d";
+$social-hangouts: "\ea8e";
+$social-facebook: "\ea90";
+$social-instagram: "\ea92";
+$social-whatsapp: "\ea93";
+$social-telegram: "\ea95";
+$social-twitter: "\ea96";
+$social-rss: "\ea9c";
+$social-dribbble: "\eaa7";
+$social-behance: "\eaa8";
+$social-deviantart: "\eaaa";
+$social-blogger: "\eab7";
+$social-tumblr: "\eab9";
+$social-linkedin: "\eaca";
+$social-pinterest: "\ead1";

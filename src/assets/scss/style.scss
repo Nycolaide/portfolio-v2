@@ -1,0 +1,23 @@
+/*
+Theme Name: Portfolio
+Text Domain: portfolio
+Version: 1.0
+Requires at least VueJS CLI: 4.3.1
+Requires VueJs: 2.5.16
+Description: Addons CSS for my Portfolio. Based to Vuetify
+Tags: blog, portoflio, laurent, laurentgrimaldi
+Author: Laurent Grimaldi
+Author URI: https://pasencoredenomdedomaine.fr/
+*/
+
+//Variables global css
+@import "./variables";
+
+//Policy
+@import "policy/montserrat";
+@import "policy/ibmplexmono";
+
+//Icons
+//@import "fonticons/social";
+//@import "fonticons/coding";
+@import "fonticons/code";

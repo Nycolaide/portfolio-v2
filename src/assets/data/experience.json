@@ -1,0 +1,209 @@
+[
+    {
+        "id": 0,
+        "company": "SARL BECBA",
+        "logo": "",
+        "location": "Machecoul (44)",
+        "website": "https://google.fr",
+        "grade": "Economiste / Assistant Architecte",
+        "type_work": "stage",
+        "categorie": "build",
+        "timeline": "Juin 2012",
+        "content": [
+            "Réalisation de plans",
+            "Topographie",
+            "Visite de chantier",
+            "Controle qualité",
+            "Etude de prix",
+            "Mise en place d'une demande de prix à des prestataires externes"
+        ]
+    },
+    {
+        "id": 1,
+        "company": "Société SECOM'ALU",
+        "logo": "",
+        "location": "La Mothe-Achard (85)",
+        "website": "https://google.fr",
+        "grade": "Métreur - Bureau d'études en menuiserie aluminium",
+        "type_work": "stage",
+        "categorie": "build",
+        "timeline": "Juin 2013",
+        "content": [
+            "Préparation de commandes",
+            "Interventions sur chantiers",
+            "Analyses et réponses aux appels d'offres",
+            "Etude de prix",
+            "Mise en place de demandes de prix de prestataires externes",
+            "Maintenance Informatique"
+        ]
+    },
+    {
+        "id": 2,
+        "company": "Société SECOM'ALU",
+        "logo": "",
+        "location": "La Mothe-Achard (85)",
+        "website": "https://google.fr",
+        "grade": "Métreur - Bureau d'études en menuiserie aluminium",
+        "type_work": "stage",
+        "categorie": "build",
+        "timeline": "Décembre 2013",
+        "content": [
+            "Préparation de commandes",
+            "Gestion de stock",
+            "Analyses et réponses aux appels d'offres",
+            "Etude de prix",
+            "Gestion d'équipe",
+            "Mise en place de demande de prix de prestataires externes",
+            "Maintenance Informatique"
+        ]
+    },
+    {
+        "id": 3,
+        "company": "Société Jean Paul Gautier",
+        "logo": "",
+        "location": "La Roche sur Yon (85)",
+        "website": "https://google.fr",
+        "grade": "Métreur - Bureau d'études en menuiserie bois",
+        "type_work": "stage",
+        "categorie": "build",
+        "timeline": "Janvier 2014",
+        "content": [
+            "Analyses et réponses aux appels d'offres",
+            "Etude de prix",
+            "Maintenance Informatique",
+            "Usinage de menuiserie bois"
+        ]
+    },
+    {
+        "id": 4,
+        "company": "Association NO Stress",
+        "logo": "",
+        "location": "Blagnac (34)",
+        "website": "https://google.fr",
+        "grade": "Développeur Web",
+        "type_work": "stage",
+        "categorie": "dev",
+        "timeline": "Juin 2015",
+        "content": [
+            "Analyse des structures existantes",
+            "Rédaction d'un cahier des charges",
+            "Création d'une nouvelle charte graphique",
+            "Propositions d'évolution pour l'organisation du support",
+            "Utilisation du CMS : CraftmyCMS",
+            "Programmation en HTML, CSS, PHP",
+            "Mise en place d'un protocole de gestion du support technique",
+            "Assistance Technique sur un serveur Minecraft",
+            "Mise en place d'éléments de communication pour une nouvelle extension"
+        ]
+    },
+    {
+        "id": 5,
+        "company": "Communauté de commune de la Région de Machecoul",
+        "logo": "",
+        "location": "Machecoul (44)",
+        "website": "https://google.fr",
+        "grade": "Responsable Technique",
+        "type_work": "stage",
+        "categorie": "dev",
+        "timeline": "Janvier/ Février 2016",
+        "content": [
+            "Analyse et propositions de solutions adaptées à la demande des élus",
+            "Rédaction d'un cahier des charges",
+            "Création d'un ensemble de maquettes",
+            "Développement d'un thème pour un site web Wordpress",
+            "Utilisation des CMS : Wordpress et Spip",
+            "Programmation en HTML, CSS, PHP",
+            "Rédaction d'une notice d'utilisation d'un site Wordpress",
+            "Formation des administrateurs",
+            "Assistance Informatique"
+        ]
+    },
+    {
+        "id": 6,
+        "company": "Communauté de commune Sud Retz Atlantique",
+        "logo": "",
+        "location": "Machecoul (44)",
+        "website": "https://google.fr",
+        "grade": "Responsable Technique",
+        "type_work": "stage",
+        "categorie": "dev",
+        "timeline": "Janvier/ Février 2017",
+        "content": [
+            "Analyse d'une structure web existante afin de définir les évolutions possibles",
+            "Développement de correctifs sur les sites web de la collectivité",
+            "Ouverture de marché pour la mise en place d'un service e-mail",
+            "Mise à disposition des documents d'utilisation du web",
+            "Utilisation des CMS : Wordpress et Joomla",
+            "Gestion des adresses mails et assistance technique",
+            "Programmation en HTML, CSS, PHP",
+            "Assistance Informatique"
+        ]
+    },
+    {
+        "id": 7,
+        "company": "Agence Zéphyr and Ko",
+        "logo": "",
+        "location": "Les Sables d'Olonnes (85)",
+        "website": "https://google.fr",
+        "grade": "Intégrateur Web / Développeur Back-End",
+        "type_work": "stage",
+        "categorie": "dev",
+        "timeline": "Janvier/ Février et Avril / Mai 2018",
+        "content": [
+            "Analyse de problématiques et propositions de solutions techniques adaptées",
+            "Résolution de rapports d'erreurs (tickets)",
+            "Maintenance et évolution de structure web",
+            "Analyse de flux de transactions immobilières",
+            "Rédaction de spécifications fonctionnelles",
+            "Programmation en HTML, CSS, LESS, PHP, Javascript et utilisation du SQL",
+            "Utilisation des CMS : E-Majine et Wordpress",
+            "Analyse mineure de sécurité sur Wordpress",
+            "Mise en place de pixels nécessaires pour l'équipe en charge du référencement",
+            "Support Technique"
+        ]
+    },
+    {
+        "id": 8,
+        "company": "SCFI - Gesweb",
+        "logo": "",
+        "location": "Paris 1er (75)",
+        "website": "https://google.fr",
+        "grade": "Développeur Web Full Stack",
+        "type_work": "work",
+        "categorie": "dev",
+        "timeline": "Novembre 2018 / Janvier 2020",
+        "content": [
+            "Maintenance et évolution du CMS Gesweb",
+            "Résolution de rapports d'erreurs (tickets)",
+            "Assistance technique",
+            "Conseil et accompagnement client",
+            "Formation des utilisateurs finaux",
+            "Programmation en HTML, CSS, ASP, VbScript, Javascript et utilisation du SQL",
+            "Utilisation des CMS : Gesweb",
+            "Intégration de maquette RWD",
+            "Optimisation SEO"
+        ]
+    },
+    {
+        "id": 9,
+        "company": "Dataswati",
+        "logo": "",
+        "location": "Massy (91)",
+        "website": "https://google.fr",
+        "grade": "Développeur Front-End JS",
+        "type_work": "work",
+        "categorie": "dev",
+        "timeline": "En poste actuellement",
+        "content": [
+            "Création de l'application côté Front-End ",
+            "Développement de components",
+            "Utilisation de VueX, VueRouter, Axios, i18n, Vuetify, EsLint, Lodash, Prettier",
+            "Développement d'interface",
+            "Développement de chart avec la library Chart.js",
+            "Programmation en HTML, CSS, SCSS, Vue.js, Javascript et Typescript",
+            "Recherche de solution à des demandes clients",
+            "Mise en place de test unitaire",
+            "Recherche et développement pour l'évolution continue"
+        ]
+    }
+]

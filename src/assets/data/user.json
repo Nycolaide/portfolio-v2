@@ -1,0 +1,47 @@
+[
+    {
+        "fistname": "Laurent",
+        "lastname": "Grimaldi",
+        "pseudo": "Lalattyna",
+        "avatar": "https://api.laminedelaurent.dev/user.png",
+        "birth": "Massy (91)",
+        "car": "Permis B",
+        "email": "l.grimaldi@outlook.com",
+        "phone": "06 24 35 13 92",
+        "address": [
+            {
+                "number": "1",
+                "street": "Square du Manoir",
+                "city": "Palaiseau",
+                "code": "91120"
+            }
+        ],
+        "social": [
+            {
+                "name": "Linkedin",
+                "icon": "mdi-home",
+                "link": "mdi-home",
+                "professionnal": true
+            },
+            {
+                "name": "GitHub",
+                "icon": "mdi-home",
+                "link": "mdi-home",
+                "professionnal": true
+            },
+            {
+                "name": "CodePen",
+                "icon": "mdi-home",
+                "link": "mdi-home",
+                "professionnal": true
+            },
+            {
+                "name": "Twitter",
+                "icon": "mdi-home",
+                "link": "mdi-home",
+                "professionnal": false
+            }
+        ]
+
+    }
+]
