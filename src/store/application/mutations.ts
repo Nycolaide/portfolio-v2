@@ -6,5 +6,10 @@ export const mutations: MutationTree<Application> = {
     console.log("updateDialog", payload);
 
     state.dialogCard = payload;
-  }
+  },
+  updateNotification(state, payload) {
+    console.log("updateNotification", payload);
+
+    state.notification = payload;
+  },
 };

@@ -75,7 +75,7 @@
 
       <Section
         title="Ma veille technologique"
-        desc="Retrouvez les conférences, keynotes que j'ai suivi ainsi que les principaux influenceurs qui m'inspire dans mon travail et me divertis dans ma vie personnel."
+        desc="Retrouvez les conférences, keynotes que j'ai suivi ainsi que les principaux influenceurs qui m'inspirent dans mon travail et me divertissent dans ma vie personnelle."
       />
       <v-row class="mb-12">
         <v-col cols="12" class="text-center">
@@ -190,7 +190,7 @@ export default Vue.extend({
     Section,
     ContentText,
     Network,
-    Dialog
+    Dialog,
   },
   data() {
     return {
@@ -201,43 +201,43 @@ export default Vue.extend({
           label: "Front-End",
           category: "f-e",
           color: "#776bff",
-          picture: "https://cdn.vuetifyjs.com/images/cards/house.jpg"
+          picture: "https://cdn.vuetifyjs.com/images/cards/house.jpg",
         },
         {
           id: 1,
           label: "Back-End",
           category: "b-e",
           color: "#ffd01a",
-          picture: "https://cdn.vuetifyjs.com/images/cards/house.jpg"
+          picture: "https://cdn.vuetifyjs.com/images/cards/house.jpg",
         },
         {
           id: 2,
           label: "UI/UX Design",
           category: "create",
           color: "#fa4e89",
-          picture: "https://cdn.vuetifyjs.com/images/cards/house.jpg"
+          picture: "https://cdn.vuetifyjs.com/images/cards/house.jpg",
         },
         {
           id: 3,
           label: "CMS",
           category: "cms",
           color: "#ffa600",
-          picture: "https://cdn.vuetifyjs.com/images/cards/house.jpg"
+          picture: "https://cdn.vuetifyjs.com/images/cards/house.jpg",
         },
         {
           id: 4,
           label: "Gestion de projets",
           category: "metho",
           color: "#ff87ff",
-          picture: "https://cdn.vuetifyjs.com/images/cards/house.jpg"
+          picture: "https://cdn.vuetifyjs.com/images/cards/house.jpg",
         },
         {
           id: 5,
           label: "Logiciels",
           category: "soft-dev",
           color: "#00e0a7",
-          picture: "https://cdn.vuetifyjs.com/images/cards/house.jpg"
-        }
+          picture: "https://cdn.vuetifyjs.com/images/cards/house.jpg",
+        },
       ],
 
       UserList: [
@@ -246,70 +246,70 @@ export default Vue.extend({
           name: "Panos Panay",
           picture: "https://files.laurentgrimaldi.dev/user/panospanay.jpg",
           work: "Chief Product Officer Microsoft",
-          link: "https://twitter.com/panos_panay"
+          link: "https://twitter.com/panos_panay",
         },
         {
           id: 2,
           name: "Dona Sarkar",
           picture: "https://files.laurentgrimaldi.dev/user/donasarkar.jpg",
           work: "Leading Dev Advocacy Microsoft",
-          link: "https://twitter.com/donasarkar"
+          link: "https://twitter.com/donasarkar",
         },
         {
           id: 3,
           name: "Joueur du Grenier",
           picture: "https://files.laurentgrimaldi.dev/user/jdg.jpg",
           work: "Youtubeur",
-          link: "https://www.youtube.com/user/joueurdugrenier"
+          link: "https://www.youtube.com/user/joueurdugrenier",
         },
         {
           id: 4,
           name: "Hugo Lisoir",
           picture: "https://files.laurentgrimaldi.dev/user/hugolisoir.jpg",
           work: "Youtubeur",
-          link: "https://www.youtube.com/channel/UCDC6DBi0kRp6Jk21xqfvFLA"
+          link: "https://www.youtube.com/channel/UCDC6DBi0kRp6Jk21xqfvFLA",
         },
         {
           id: 5,
           name: "Alexandre Astier",
           picture: "https://files.laurentgrimaldi.dev/user/alexandreastier.png",
           work: "C'est pas faux",
-          link: "https://twitter.com/AAstierOff"
+          link: "https://twitter.com/AAstierOff",
         },
         {
           id: 6,
           name: "Jonathan Ive",
           picture: "https://files.laurentgrimaldi.dev/user/jonathanive.jpg",
           work: "Designer",
-          link: "https://designwanted.com/design/jonathan-ive-apple/"
+          link: "https://designwanted.com/design/jonathan-ive-apple/",
         },
         {
           id: 7,
           name: "Re:Take",
           picture: "https://files.laurentgrimaldi.dev/user/retake.jpg",
           work: "Youtubeur",
-          link: "https://www.youtube.com/user/PizzaLauncher"
+          link: "https://www.youtube.com/user/PizzaLauncher",
         },
         {
           id: 8,
           name: "Viva la Dirt League",
           picture: "https://files.laurentgrimaldi.dev/user/vivaladirtleague",
           work: "Youtubeur",
-          link: "https://www.youtube.com/user/VivaLaDirtLeague"
+          link: "https://www.youtube.com/user/VivaLaDirtLeague",
         },
         {
           id: 9,
           name: "Benjamin Brillaud",
           picture: "https://files.laurentgrimaldi.dev/user/notabene.jpg",
           work: "Youtubeur",
-          link: "https://www.youtube.com/user/notabenemovies"
+          link: "https://www.youtube.com/user/notabenemovies",
         },
         {
           id: 10,
           name: "Tev",
           picture: "https://files.laurentgrimaldi.dev/user/tev.jpg",
           work: "CEO de Candysan & Youtubeur IciJapon",
-          link: "https://twitter.com/IciJapon"
+          link: "https://twitter.com/IciJapon",
         },
         {
           id: 11,
@@ -317,22 +317,22 @@ export default Vue.extend({
           picture:
             "https://files.laurentgrimaldi.dev/user/natsumeakatsuki.jpeg",
           work: "Mangaka",
-          link: "https://fr.wikipedia.org/wiki/Natsume_Akatsuki"
+          link: "https://fr.wikipedia.org/wiki/Natsume_Akatsuki",
         },
         {
           id: 12,
           name: "AstronoGeek",
           picture: "https://files.laurentgrimaldi.dev/user/astronogeek.jpg",
           work: "Youtubeur",
-          link: "https://www.youtube.com/channel/UC5X4e8ScZI2AFd_vkjSoyoQ"
+          link: "https://www.youtube.com/channel/UC5X4e8ScZI2AFd_vkjSoyoQ",
         },
         {
           id: 13,
           name: "Joeel56",
           picture: "https://files.laurentgrimaldi.dev/user/joeel56.jpeg",
           work: "Web Developpeur / Youtubeuse ",
-          link: "https://www.instagram.com/joeel56/?hl=fr"
-        }
+          link: "https://www.instagram.com/joeel56/?hl=fr",
+        },
       ],
 
       socialList: [
@@ -341,32 +341,32 @@ export default Vue.extend({
           name: "Twitter",
           icon: "mdi-twitter",
           color: "",
-          link: "https://twitter.com/grimlaurent"
+          link: "https://twitter.com/grimlaurent",
         },
         {
           id: 1,
           name: "Instagram",
           icon: "mdi-instagram",
           color: "",
-          link: "https://www.instagram.com/grimlaurent/"
+          link: "https://www.instagram.com/grimlaurent/",
         },
         {
           id: 2,
           name: "GitHub",
           icon: "mdi-github",
           color: "",
-          link: "https://github.com/GrimLaurent"
+          link: "https://github.com/GrimLaurent",
         },
         {
           id: 3,
           name: "CodePen",
           icon: "mdi-codepen",
           color: "",
-          link: "https://codepen.io/GrimLaurent"
-        }
-      ]
+          link: "https://codepen.io/GrimLaurent",
+        },
+      ],
     };
-  }
+  },
 });
 </script>
 
