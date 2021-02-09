@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app id="app" data-view>
     <Snackbar />
     <v-app-bar flat dense color="header">
       <!-- -->
@@ -34,7 +34,7 @@
 import Vue from "vue";
 
 //core
-import { controlReleaseCore } from "@/core/index";
+import { ControlReleaseCore } from "@/core/index";
 //components
 import Darkmode from "@/components/theme/Darkmode.vue";
 import Snackbar from "@/components/theme/Snackbar.vue";
@@ -48,12 +48,11 @@ export default Vue.extend({
   },
   data() {
     return {
-      version: "0.8.1.27",
       versionApp: process.env.VUE_APP_VERSION,
     };
   },
   async created() {
-    await controlReleaseCore(this.version);
+    await ControlReleaseCore(this.versionApp);
   },
 });
 </script>

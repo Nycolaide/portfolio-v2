@@ -6,7 +6,7 @@ function generateVersion(version: string) {
   localStorage.setItem("app_updated", String(dateUpdate));
 }
 
-export function controlReleaseCore(release: string) {
+export function ControlReleaseCore(release: string) {
   const versionLocal = localStorage.getItem("app_version");
 
   store.commit("application/updateNotification", {
