@@ -16,7 +16,7 @@
               fab
               color="#161414"
               elevation="6"
-              href="https://github.com/"
+              href="https://github.com/GrimLaurent"
               target="_blank"
             >
               <v-icon color="white">mdi-github</v-icon>
