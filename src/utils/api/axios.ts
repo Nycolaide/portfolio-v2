@@ -41,7 +41,6 @@ export const callApi = async (options: OptionsCall): Promise<Query> => {
         //    },
         //  });
         //}
-        console.log("method POST");
         break;
       case "POSTJSON":
         response = await axios.post(`${url}`, options.params);

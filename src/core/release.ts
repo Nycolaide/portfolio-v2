@@ -23,5 +23,4 @@ export function ControlReleaseCore(release: string) {
   } else {
     generateVersion(release);
   }
-  console.log("controlReleaseCore");
 }
