@@ -10,8 +10,13 @@ export const getDefaultState = (): Application => {
     dialogCard: {
       title: "",
       category: "",
-      show: false
-    }
+      show: false,
+    },
+    notification: {
+      text: "",
+      timeout: 6000,
+      show: false,
+    },
   };
   return state;
 };
@@ -23,7 +28,7 @@ export const application: Module<Application, RootState> = {
   state,
   getters,
   actions,
-  mutations
+  mutations,
 };
 
 export default application;

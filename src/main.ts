@@ -4,16 +4,15 @@ import App from "./App.vue";
 import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
-import gsap from "gsap";
+import axios from "axios";
 import vuetify from "./plugins/vuetify";
 
 Vue.config.productionTip = false;
-
-Vue.use(gsap);
+axios.defaults.withCredentials = true;
 
 new Vue({
   router,
   store,
   vuetify,
-  render: h => h(App)
+  render: h => h(App),
 }).$mount("#app");

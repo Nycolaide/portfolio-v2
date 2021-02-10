@@ -3,8 +3,9 @@ import { Application } from "./types";
 
 export const mutations: MutationTree<Application> = {
   updateDialog(state, payload) {
-    console.log("updateDialog", payload);
-
     state.dialogCard = payload;
-  }
+  },
+  updateNotification(state, payload) {
+    state.notification = payload;
+  },
 };
