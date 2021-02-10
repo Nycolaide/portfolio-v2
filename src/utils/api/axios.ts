@@ -59,23 +59,12 @@ export const callApi = async (options: OptionsCall): Promise<Query> => {
       default:
         break;
     }
-    //store.commit("application/updateResponseStatusAPI", true); //execute
     return {
       success: true,
       data: response.data,
       httpCode: response ? response.status : NaN,
     };
   } catch (e) {
-    //store.commit("application/updateResponseStatusAPI", false); //no execute
-
-    // if (!options.silent) {
-    // 	store.commit('application/updateSnackbar', {
-    // 		text: i18n.tc('application.error.title', 1),
-    // 		color: 'error',
-    // 		message: `${e.response && e.response.status ? e.response.status : i18n.tc('application.error.title', 1)}`,
-    // 		show: true
-    // 	})
-    // }
     return {
       success: false,
       data: null,
