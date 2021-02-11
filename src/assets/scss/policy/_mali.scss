@@ -1,0 +1,91 @@
+/**
+ * MALI
+ * @link https://fonts.google.com/specimen/Montserrat?query=Mont
+ * @author Julieta Ulanovsky
+ */
+
+$font_name: "Mali";
+
+//Regular
+@font-face {
+  font-family: $font_name;
+  src: url($path_fonts+"/fonts/"+$font_name+"/"+$font_name+"-Regular.ttf");
+}
+
+@font-face {
+  font-family: $font_name;
+  font-style: italic;
+  src: url($path_fonts+"/fonts/"+$font_name+"/"+$font_name+"-Italic.ttf");
+}
+
+//Medium
+@font-face {
+  font-family: $font_name + "-Medium";
+  src: url($path_fonts+"/fonts/"+$font_name+"/"+$font_name+"-Medium.ttf");
+}
+
+@font-face {
+  font-family: $font_name + "-Medium";
+  font-style: italic;
+  src: url($path_fonts+"/fonts/"+$font_name+"/"+$font_name+"-MediumItalic.ttf");
+}
+
+//ExtraLight
+@font-face {
+  font-family: $font_name + "-ExtraLight";
+  src: url($path_fonts+"/fonts/"+$font_name+"/"+$font_name+"-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: $font_name + "-ExtraLight";
+  font-style: italic;
+  src: url($path_fonts+"/fonts/"+$font_name+"/"+$font_name+"-ExtraLightItalic.ttf");
+}
+
+//Light
+@font-face {
+  font-family: $font_name + "-Light";
+  src: url($path_fonts+"/fonts/"+$font_name+"/"+$font_name+"-Light.ttf");
+}
+
+@font-face {
+  font-family: $font_name + "-Light";
+  font-style: italic;
+  src: url($path_fonts+"/fonts/"+$font_name+"/"+$font_name+"-LightItalic.ttf");
+}
+
+//Thin
+@font-face {
+  font-family: $font_name + "-Thin";
+  src: url($path_fonts+"/fonts/"+$font_name+"/"+$font_name+"-Thin.ttf");
+}
+
+@font-face {
+  font-family: $font_name + "-Thin";
+  font-style: italic;
+  src: url($path_fonts+"/fonts/"+$font_name+"/"+$font_name+"-ThinItalic.ttf");
+}
+
+//Semi Bold
+@font-face {
+  font-family: $font_name + "-Bold";
+  src: url($path_fonts+"/fonts/"+$font_name+"/"+$font_name+"-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: $font_name + "-SemiBold";
+  font-style: italic;
+  src: url($path_fonts+"/fonts/"+$font_name+"/"+$font_name+"-SemiBoldItalic.ttf");
+}
+
+//Bold
+@font-face {
+  font-family: $font_name + "-Bold";
+  src: url($path_fonts+"/fonts/"+$font_name+"/"+$font_name+"-Bold.ttf");
+}
+
+@font-face {
+  font-family: $font_name + "-Bold";
+  font-style: italic;
+  src: url($path_fonts+"/fonts/"+$font_name+"/"+$font_name+"-BoldItalic.ttf");
+}

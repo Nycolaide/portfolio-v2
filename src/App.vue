@@ -1,6 +1,11 @@
 <template>
   <v-app id="app" data-view>
     <Snackbar />
+
+    <!-- navigation-bar -->
+    <AppBar />
+    <!-- !navigation-bar -->
+
     <v-app-bar flat dense color="header">
       <!-- -->
       <v-container class="content--app pr-0 pl-0 pr-mb-2 pl-mb-2">
@@ -35,6 +40,10 @@ import Vue from "vue";
 
 //core
 import { ControlReleaseCore } from "@/core/index";
+
+//templates
+import AppBar from "@/components/templates/AppBar.vue";
+
 //components
 import Darkmode from "@/components/theme/Darkmode.vue";
 import Snackbar from "@/components/theme/Snackbar.vue";
@@ -43,6 +52,7 @@ export default Vue.extend({
   name: "App",
 
   components: {
+    AppBar,
     Darkmode,
     Snackbar,
   },
