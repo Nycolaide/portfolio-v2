@@ -1,5 +1,6 @@
 <template>
   <v-app id="app" data-view>
+    <Loading />
     <Snackbar />
 
     <!-- navigation-bar -->
@@ -47,6 +48,7 @@ import AppBar from "@/components/templates/AppBar.vue";
 //components
 import Darkmode from "@/components/theme/Darkmode.vue";
 import Snackbar from "@/components/theme/Snackbar.vue";
+import Loading from "@/components/Loading.vue";
 
 export default Vue.extend({
   name: "App",
@@ -55,6 +57,7 @@ export default Vue.extend({
     AppBar,
     Darkmode,
     Snackbar,
+    Loading,
   },
   data() {
     return {

@@ -79,12 +79,24 @@
         </v-card-text>
       </v-card>
     </v-menu>
-    <v-btn depressed color="btn" class="text-capitalize mr-1 ml-1">
-      Mon blog
-    </v-btn>
+    <v-tooltip bottom>
+      <template v-slot:activator="{ on }">
+        <span v-on="on">
+          <v-btn
+            depressed
+            color="btn"
+            class="text-capitalize mr-1 ml-1"
+            disabled
+          >
+            Mon blog
+          </v-btn>
+        </span>
+      </template>
+      <span>La fonctionnalitée est en projet ! 🤞🏻</span>
+    </v-tooltip>
 
     <v-avatar size="36">
-      <img src="https://cdn.vuetifyjs.com/images/john.jpg" alt="John" />
+      <img src="@/assets/laurent.jpg" alt="Laurent Grimaldi" />
     </v-avatar>
   </v-app-bar>
 </template>

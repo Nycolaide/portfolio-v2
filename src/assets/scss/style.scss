@@ -15,6 +15,7 @@ Author URI: https://pasencoredenomdedomaine.fr/
 
 //Policy
 @import "policy/mali";
+@import "policy/akayatelivigala";
 @import "policy/montserrat";
 @import "policy/ibmplexmono";
 
@@ -23,6 +24,12 @@ Author URI: https://pasencoredenomdedomaine.fr/
 //@import "fonticons/coding";
 @import "fonticons/code";
 
+//OTHER
+.im-unicorn {
+  position: absolute;
+  margin: -4px;
+  z-index: 1;
+}
 //TITLE
 .app-title {
   font-family: "Mali-Bold", cursive;
@@ -33,4 +40,15 @@ Author URI: https://pasencoredenomdedomaine.fr/
 .icon-btn {
   padding: 0 6px !important;
   min-width: initial !important;
+}
+
+//ICON
+.icon-large {
+  font-size: 24px !important;
+}
+
+//OVERLAY
+
+.theme--dark#loading--app.v-overlay {
+  color: #000000 !important;
 }

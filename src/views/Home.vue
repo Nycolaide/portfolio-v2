@@ -1,5 +1,7 @@
 <template>
   <div class="home">
+    <Header />
+    <Mosaic />
     <v-sheet color="header">
       <v-container class="pt-12 pb-16 content--app">
         <v-row align="center" class="mt-5 mb-5">
@@ -176,6 +178,8 @@ import Network from "@/components/Network.vue";
 import Dialog from "@/components/Dialog.vue";
 
 //templates
+import Header from "@/components/templates/Header.vue";
+import Mosaic from "@/components/templates/Mosaic.vue";
 import Section from "@/components/templates/TitleSection.vue";
 import ContentText from "@/components/templates/Text.vue";
 import SlideGroups from "@/components/SlideGroups.vue";
@@ -191,6 +195,8 @@ export default Vue.extend({
     ContentText,
     Network,
     Dialog,
+    Header,
+    Mosaic,
   },
   data() {
     return {
