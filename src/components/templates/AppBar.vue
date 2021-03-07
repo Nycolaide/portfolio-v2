@@ -85,15 +85,24 @@
           <v-btn
             depressed
             color="btn"
+            @click="$router.push({ name: 'Homepage' })"
             class="text-capitalize mr-1 ml-1"
-            disabled
           >
-            Mon blog
+            New home
           </v-btn>
         </span>
       </template>
       <span>La fonctionnalitée est en projet ! 🤞🏻</span>
     </v-tooltip>
+
+    <v-btn
+      depressed
+      color="btn"
+      @click="$router.push({ name: 'Home' })"
+      class="text-capitalize mr-1 ml-1"
+    >
+      Home
+    </v-btn>
 
     <v-avatar size="36">
       <img src="@/assets/laurent.jpg" alt="Laurent Grimaldi" />

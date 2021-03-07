@@ -1,12 +1,12 @@
 import store from "@/store";
 
-function generateVersion(version: string) {
+function generateVersion(version: any) {
   const dateUpdate = new Date();
   localStorage.setItem("app_version", version);
   localStorage.setItem("app_updated", String(dateUpdate));
 }
 
-export function ControlReleaseCore(release: string) {
+export function ControlReleaseCore(release: any) {
   const versionLocal = localStorage.getItem("app_version");
 
   store.commit("application/updateNotification", {
@@ -16,11 +16,11 @@ export function ControlReleaseCore(release: string) {
   });
 
   if (versionLocal) {
-    if (versionLocal !== release) {
+    if (versionLocal !== release.data.version) {
       localStorage.clear();
-      generateVersion(release);
+      generateVersion(release.data.version);
     }
   } else {
-    generateVersion(release);
+    generateVersion(release.data.version);
   }
 }

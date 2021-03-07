@@ -1,0 +1,334 @@
+$icomoon-font-family: "minefont" !default;
+$icomoon-font-path: "/icons/Minefonts" !default;
+$icomoon-id: "wyrxh6" !default;
+
+@font-face {
+  font-family: "#{$icomoon-font-family}";
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?#{$icomoon-id}");
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?#{$icomoon-id}#iefix")
+      format("embedded-opentype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?#{$icomoon-id}")
+      format("truetype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?#{$icomoon-id}")
+      format("woff"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?#{$icomoon-id}##{$icomoon-font-family}")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "#{$icomoon-font-family}" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mine-merise {
+  &:before {
+    content: $mine-merise;
+  }
+}
+.mine-github {
+  &:before {
+    content: $mine-github;
+  }
+}
+.mine-uml {
+  &:before {
+    content: $mine-uml;
+  }
+}
+.mine-clippaintstudio {
+  &:before {
+    content: $mine-clippaintstudio;
+  }
+}
+.mine-git {
+  &:before {
+    content: $mine-git;
+  }
+}
+.mine-gitlab {
+  &:before {
+    content: $mine-gitlab;
+  }
+}
+.mine-gesweb {
+  &:before {
+    content: $mine-gesweb;
+  }
+}
+.mine-prestashop {
+  &:before {
+    content: $mine-prestashop;
+  }
+}
+.mine-angular {
+  &:before {
+    content: $mine-angular;
+  }
+}
+.mine-asp {
+  &:before {
+    content: $mine-asp;
+  }
+}
+.mine-bootstrap {
+  &:before {
+    content: $mine-bootstrap;
+  }
+}
+.mine-csharp {
+  &:before {
+    content: $mine-csharp;
+  }
+}
+.mine-css {
+  &:before {
+    content: $mine-css;
+  }
+}
+.mine-html {
+  &:before {
+    content: $mine-html;
+  }
+}
+.mine-joomla {
+  &:before {
+    content: $mine-joomla;
+  }
+}
+.mine-jquery {
+  &:before {
+    content: $mine-jquery;
+  }
+}
+.mine-js {
+  &:before {
+    content: $mine-js;
+  }
+}
+.mine-less {
+  &:before {
+    content: $mine-less;
+  }
+}
+.mine-mongodb {
+  &:before {
+    content: $mine-mongodb;
+  }
+}
+.mine-mysql {
+  &:before {
+    content: $mine-mysql;
+  }
+}
+.mine-neo4j {
+  &:before {
+    content: $mine-neo4j;
+  }
+}
+.mine-nodejs {
+  &:before {
+    content: $mine-nodejs;
+  }
+}
+.mine-php {
+  &:before {
+    content: $mine-php;
+  }
+}
+.mine-python {
+  &:before {
+    content: $mine-python;
+  }
+}
+.mine-react {
+  &:before {
+    content: $mine-react;
+  }
+}
+.mine-sass {
+  &:before {
+    content: $mine-sass;
+  }
+}
+.mine-sql {
+  &:before {
+    content: $mine-sql;
+  }
+}
+.mine-sqlserver {
+  &:before {
+    content: $mine-sqlserver;
+  }
+}
+.mine-sublimetext {
+  &:before {
+    content: $mine-sublimetext;
+  }
+}
+.mine-visualstudio {
+  &:before {
+    content: $mine-visualstudio;
+  }
+}
+.mine-vue {
+  &:before {
+    content: $mine-vue;
+  }
+}
+.mine-vuetify {
+  &:before {
+    content: $mine-vuetify;
+  }
+}
+.mine-webpack {
+  &:before {
+    content: $mine-webpack;
+  }
+}
+.mine-wordpress {
+  &:before {
+    content: $mine-wordpress;
+  }
+}
+.mine-vb {
+  &:before {
+    content: $mine-vb;
+  }
+}
+.mine-office {
+  &:before {
+    content: $mine-office;
+  }
+}
+.mine-photoshop {
+  &:before {
+    content: $mine-photoshop;
+  }
+}
+.mine-quill {
+  &:before {
+    content: $mine-quill;
+  }
+}
+.mine-illustrator {
+  &:before {
+    content: $mine-illustrator;
+  }
+}
+.mine-craftmycms {
+  &:before {
+    content: $mine-craftmycms;
+  }
+}
+.mine-experience {
+  &:before {
+    content: $mine-experience;
+  }
+}
+.mine-emajine {
+  &:before {
+    content: $mine-emajine;
+  }
+}
+.mine-apache {
+  &:before {
+    content: $mine-apache;
+  }
+}
+.mine-xml {
+  &:before {
+    content: $mine-xml;
+  }
+}
+.mine-json {
+  &:before {
+    content: $mine-json;
+  }
+}
+.mine-autocad {
+  &:before {
+    content: $mine-autocad;
+  }
+}
+.mine-googlesketchup {
+  &:before {
+    content: $mine-googlesketchup;
+  }
+}
+.mine-vs {
+  &:before {
+    content: $mine-vs;
+  }
+}
+.mine-embed {
+  &:before {
+    content: $mine-embed;
+  }
+}
+.mine-trello {
+  &:before {
+    content: $mine-trello;
+  }
+}
+.mine-linux {
+  &:before {
+    content: $mine-linux;
+  }
+}
+.mine-apple {
+  &:before {
+    content: $mine-apple;
+  }
+}
+.mine-android {
+  &:before {
+    content: $mine-android;
+  }
+}
+.mine-windows {
+  &:before {
+    content: $mine-windows;
+  }
+}
+.mine-coin {
+  &:before {
+    content: $mine-coin;
+  }
+}
+.mine-witchhat {
+  &:before {
+    content: $mine-witchhat;
+  }
+}
+.mine-sword {
+  &:before {
+    content: $mine-sword;
+  }
+}
+.mine-shield {
+  &:before {
+    content: $mine-shield;
+  }
+}
+.mine-potion {
+  &:before {
+    content: $mine-potion;
+  }
+}
+.mine-bookmagic {
+  &:before {
+    content: $mine-bookmagic;
+  }
+}

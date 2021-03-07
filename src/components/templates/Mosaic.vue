@@ -2,13 +2,25 @@
   <div>
     <v-row>
       <v-col>
-        C1
+        <v-card class="d-block">
+          <v-card-text>C1</v-card-text>
+        </v-card>
+        <v-card class="d-block">
+          <v-card-text>C2</v-card-text>
+        </v-card>
       </v-col>
       <v-col>
-        C2
+        <v-card>
+          <v-card-text>C3</v-card-text>
+        </v-card>
       </v-col>
       <v-col>
-        C3
+        <v-card class="d-block">
+          <v-card-text>C4</v-card-text>
+        </v-card>
+        <v-card class="d-block">
+          <v-card-text>C5</v-card-text>
+        </v-card>
       </v-col>
     </v-row>
   </div>

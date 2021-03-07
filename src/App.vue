@@ -1,7 +1,7 @@
 <template>
   <v-app id="app" data-view>
     <Loading />
-    <Snackbar />
+    <!--<Snackbar />-->
 
     <!-- navigation-bar -->
     <AppBar />
@@ -38,9 +38,12 @@
 
 <script lang="ts">
 import Vue from "vue";
+import store from "@/store";
+import { mapState, mapGetters, mapMutations, mapActions } from "vuex";
 
 //core
 import { ControlReleaseCore } from "@/core/index";
+import { getVersionApp } from "@/utils/index";
 
 //templates
 import AppBar from "@/components/templates/AppBar.vue";
@@ -61,11 +64,22 @@ export default Vue.extend({
   },
   data() {
     return {
-      versionApp: process.env.VUE_APP_VERSION,
+      versionApp: localStorage.getItem("app_version"),
     };
   },
   async created() {
-    await ControlReleaseCore(this.versionApp);
+    const version = await getVersionApp();
+
+    await ControlReleaseCore(version);
+    const localVersionApp = localStorage.getItem("app_version");
+    this.versionApp = localVersionApp;
+  },
+  mounted() {
+    this.getProfil();
+  },
+
+  methods: {
+    ...mapActions("profil", ["getProfil"]),
   },
 });
 </script>
