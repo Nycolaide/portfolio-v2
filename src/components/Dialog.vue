@@ -5,6 +5,7 @@
       @click:outside="closeDialog()"
       max-width="800"
       scrollable
+      style="z-index: 9999"
     >
       <v-card class="rounded-xl">
         <v-card-title>
@@ -78,7 +79,7 @@ export default Vue.extend({
   data() {
     return {
       title: "",
-      data: [] as any
+      data: [] as any,
     };
   },
   methods: {
@@ -87,7 +88,7 @@ export default Vue.extend({
       store.commit("application/updateDialog", {
         title: "",
         catgeory: "",
-        show: false
+        show: false,
       });
     },
 
@@ -97,7 +98,7 @@ export default Vue.extend({
           this.data.push(DataJson[key]);
         }
       }
-    }
+    },
   },
   computed: {
     ...mapGetters("application", ["dialogCard"]),
@@ -111,9 +112,9 @@ export default Vue.extend({
         }
 
         return action;
-      }
-    }
-  }
+      },
+    },
+  },
 });
 </script>
 <style lang="scss">

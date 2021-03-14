@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <Header />
-    <Mosaic />
+    <!--<Header />-->
     <v-sheet color="header">
       <v-container class="pt-12 pb-16 content--app">
         <v-row align="center" class="mt-5 mb-5">
@@ -65,14 +64,17 @@
         desc="Découvrez l'ensemble de mes compétences professionnelles, et retrouver mes expériences sur <a href='https://www.linkedin.com/in/laurentgrimaldi/' class='linkedin-color'>Linkedin</a>"
       />
       <v-row color="#121212">
-        <v-col
+        <v-col>
+          <Mosaic :data="categoriesHome" @on-click="openDialog" />
+        </v-col>
+        <!--<v-col
           v-for="item in Object.values(CategorySkill)"
           :key="item.id"
           cols="6"
           md="4"
         >
           <Categorie :data="item" />
-        </v-col>
+        </v-col>-->
       </v-row>
 
       <Section
@@ -167,6 +169,8 @@
 
 <script lang="ts">
 import Vue from "vue";
+import store from "@/store";
+import { mapState, mapActions } from "vuex";
 
 //modules
 import Hero from "@/components/Hero.vue";
@@ -372,6 +376,24 @@ export default Vue.extend({
         },
       ],
     };
+  },
+  computed: {
+    ...mapState("categories", ["categoriesHome"]),
+  },
+  mounted() {
+    this.getMetaCategories();
+  },
+  methods: {
+    ...mapActions("categories", ["getMetaCategories"]),
+
+    openDialog(category: string) {
+      console.log("hello", category);
+      store.commit("application/updateDialog", {
+        title: "",
+        category: category,
+        show: true,
+      });
+    },
   },
 });
 </script>

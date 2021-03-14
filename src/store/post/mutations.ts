@@ -76,6 +76,7 @@ export const mutations: MutationTree<Post> = {
         });
       }
     }
+    console.log(data);
     state.postList = data;
   },
 };

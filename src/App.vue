@@ -1,10 +1,10 @@
 <template>
   <v-app id="app" data-view>
-    <Loading />
+    <!--<Loading />-->
     <!--<Snackbar />-->
 
     <!-- navigation-bar -->
-    <AppBar />
+    <!--<AppBar />-->
     <!-- !navigation-bar -->
 
     <v-app-bar flat dense color="header">

@@ -6,6 +6,9 @@ import router from "./router";
 import store from "./store";
 import axios from "axios";
 import vuetify from "./plugins/vuetify";
+import VueFlicking from "@egjs/vue-flicking";
+
+Vue.use(VueFlicking);
 
 Vue.config.productionTip = false;
 axios.defaults.withCredentials = true;
