@@ -41,7 +41,7 @@
                 class="ml-2 mb-2"
                 color="white"
                 style="color: black;"
-                href="mailto:laurentgrim.95@gmail.com"
+                href="mailto:hello@laurentgrimaldi.dev"
               >
                 Me contacter
               </v-btn>
