@@ -1,6 +1,7 @@
 export interface Application {
   dialogCard: Dialog;
   notification: Notification;
+  applicationInit: any;
 }
 export interface Dialog {
   title: string;

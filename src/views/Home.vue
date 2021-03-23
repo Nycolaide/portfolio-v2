@@ -29,7 +29,7 @@
                 rounded
                 color="primary"
                 class="ml-2 mb-2"
-                href="https://1drv.ms/u/s!Au66N3pA-QTIgros06k-8YAOnAXOzA?e=lOFPvR"
+                href="https://1drv.ms/f/s!Aogx7ss2wAgioEV5P1Q8uQMQZuLA"
                 target="_blank"
               >
                 <v-icon left>mdi-download</v-icon>
@@ -67,14 +67,6 @@
         <v-col>
           <Mosaic :data="categoriesHome" @on-click="openDialog" />
         </v-col>
-        <!--<v-col
-          v-for="item in Object.values(CategorySkill)"
-          :key="item.id"
-          cols="6"
-          md="4"
-        >
-          <Categorie :data="item" />
-        </v-col>-->
       </v-row>
 
       <Section

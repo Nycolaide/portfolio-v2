@@ -21,7 +21,7 @@
           // HANDLE INDEX CHANGE
         }
       "
-      style="height: 320px; z-index: 10;"
+      style="height: 320px;"
     >
       <div class="panel" style="z-index: 10;">
         <v-sheet width="420px" class="anchor">

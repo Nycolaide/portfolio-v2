@@ -33,6 +33,7 @@
         </v-row>
       </v-container>
     </v-footer>
+    <Billy />
   </v-app>
 </template>
 
@@ -47,11 +48,13 @@ import { getVersionApp } from "@/utils/index";
 
 //templates
 import AppBar from "@/components/templates/AppBar.vue";
+import Dialog from "@/components/templates/Dialog.vue";
 
 //components
 import Darkmode from "@/components/theme/Darkmode.vue";
 import Snackbar from "@/components/theme/Snackbar.vue";
 import Loading from "@/components/Loading.vue";
+import Billy from "@/components/HelpBot.vue";
 
 export default Vue.extend({
   name: "App",
@@ -61,6 +64,7 @@ export default Vue.extend({
     Darkmode,
     Snackbar,
     Loading,
+    Billy,
   },
   data() {
     return {
@@ -76,10 +80,12 @@ export default Vue.extend({
   },
   mounted() {
     this.getProfil();
+    this.getApplicationDefault();
   },
 
   methods: {
     ...mapActions("profil", ["getProfil"]),
+    ...mapActions("application", ["getApplicationDefault"]),
   },
 });
 </script>
