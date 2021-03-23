@@ -17,6 +17,7 @@ export const getDefaultState = (): Application => {
       timeout: 6000,
       show: false,
     },
+    applicationInit: {},
   };
   return state;
 };

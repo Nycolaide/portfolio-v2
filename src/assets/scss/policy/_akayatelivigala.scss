@@ -1,0 +1,13 @@
+/**
+ * AKAYA TELIVIGALA
+ * @link https://fonts.google.com/specimen/Akaya+Telivigala
+ * @author Vaishnavi Murthy, Juan Luis Blanco
+ */
+
+$font_name: "AkayaTelivigala";
+
+//Regular
+@font-face {
+  font-family: $font_name;
+  src: url($path_fonts+"/fonts/"+$font_name+"/"+$font_name+"-Regular.ttf");
+}

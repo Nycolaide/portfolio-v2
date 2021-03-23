@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <!--<Header />-->
     <v-sheet color="header">
       <v-container class="pt-12 pb-16 content--app">
         <v-row align="center" class="mt-5 mb-5">
@@ -28,7 +29,7 @@
                 rounded
                 color="primary"
                 class="ml-2 mb-2"
-                href="https://1drv.ms/u/s!Au66N3pA-QTIgros06k-8YAOnAXOzA?e=lOFPvR"
+                href="https://1drv.ms/f/s!Aogx7ss2wAgioEV5P1Q8uQMQZuLA"
                 target="_blank"
               >
                 <v-icon left>mdi-download</v-icon>
@@ -40,7 +41,7 @@
                 class="ml-2 mb-2"
                 color="white"
                 style="color: black;"
-                href="mailto:laurentgrim.95@gmail.com"
+                href="mailto:hello@laurentgrimaldi.dev"
               >
                 Me contacter
               </v-btn>
@@ -63,13 +64,8 @@
         desc="Découvrez l'ensemble de mes compétences professionnelles, et retrouver mes expériences sur <a href='https://www.linkedin.com/in/laurentgrimaldi/' class='linkedin-color'>Linkedin</a>"
       />
       <v-row color="#121212">
-        <v-col
-          v-for="item in Object.values(CategorySkill)"
-          :key="item.id"
-          cols="6"
-          md="4"
-        >
-          <Categorie :data="item" />
+        <v-col>
+          <Mosaic :data="categoriesHome" @on-click="openDialog" />
         </v-col>
       </v-row>
 
@@ -165,6 +161,8 @@
 
 <script lang="ts">
 import Vue from "vue";
+import store from "@/store";
+import { mapState, mapActions } from "vuex";
 
 //modules
 import Hero from "@/components/Hero.vue";
@@ -176,6 +174,8 @@ import Network from "@/components/Network.vue";
 import Dialog from "@/components/Dialog.vue";
 
 //templates
+import Header from "@/components/templates/Header.vue";
+import Mosaic from "@/components/templates/Mosaic.vue";
 import Section from "@/components/templates/TitleSection.vue";
 import ContentText from "@/components/templates/Text.vue";
 import SlideGroups from "@/components/SlideGroups.vue";
@@ -191,6 +191,8 @@ export default Vue.extend({
     ContentText,
     Network,
     Dialog,
+    Header,
+    Mosaic,
   },
   data() {
     return {
@@ -366,6 +368,24 @@ export default Vue.extend({
         },
       ],
     };
+  },
+  computed: {
+    ...mapState("categories", ["categoriesHome"]),
+  },
+  mounted() {
+    this.getMetaCategories();
+  },
+  methods: {
+    ...mapActions("categories", ["getMetaCategories"]),
+
+    openDialog(category: string) {
+      console.log("hello", category);
+      store.commit("application/updateDialog", {
+        title: "",
+        category: category,
+        show: true,
+      });
+    },
   },
 });
 </script>

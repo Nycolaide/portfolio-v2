@@ -14,10 +14,42 @@ Author URI: https://pasencoredenomdedomaine.fr/
 @import "./variables";
 
 //Policy
+@import "policy/mali";
+@import "policy/akayatelivigala";
 @import "policy/montserrat";
 @import "policy/ibmplexmono";
 
 //Icons
 //@import "fonticons/social";
 //@import "fonticons/coding";
-@import "fonticons/code";
+//@import "fonticons/code";
+@import "fonticons/mine";
+
+//OTHER
+.im-unicorn {
+  position: absolute;
+  margin: -4px;
+  z-index: 1;
+}
+//TITLE
+.app-title {
+  font-family: "Mali-Bold", cursive;
+  font-size: 1.6rem !important;
+}
+
+//BTN
+.icon-btn {
+  padding: 0 6px !important;
+  min-width: initial !important;
+}
+
+//ICON
+.icon-large {
+  font-size: 24px !important;
+}
+
+//OVERLAY
+
+.theme--dark#loading--app.v-overlay {
+  color: #000000 !important;
+}

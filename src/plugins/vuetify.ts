@@ -12,7 +12,10 @@ export default new Vuetify({
         badgeColor: "#ffffff",
         background: "#ffffff",
         footerApp: "#23272a",
-        lvl: "#768ddb"
+        lvl: "#768ddb",
+
+        btn: "#f3f3f5",
+        bg: "#ffffff",
       },
       dark: {
         primary: "#2D2C2D",
@@ -20,8 +23,10 @@ export default new Vuetify({
         badgeColor: "#2D2C2D",
         background: "#121212",
         footerApp: "#23272a",
-        lvl: "#768ddb"
-      }
-    }
-  }
+        lvl: "#768ddb",
+
+        btn: "#f3f3f5",
+      },
+    },
+  },
 });
