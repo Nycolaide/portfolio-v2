@@ -88,10 +88,8 @@
           </v-card>
         </v-col>
       </v-row>
-      
-      <Section
-        desc="Les influenceurs qui me divertissent et m'inspire."
-      />
+
+      <Section desc="Les influenceurs qui me divertissent et m'inspire." />
 
       <SlideGroups class="mt-3" style="margin: 0 auto;">
         <template v-slot:content>
@@ -137,7 +135,7 @@
           style="color: black"
         >
           <v-card-title class="text-h5 font-weight-bold">
-            Vous voulez en s'avoir plus ??
+            Vous voulez en s'avoir plus ?
           </v-card-title>
           <v-card-text class="text-h6 font-weight-regular" style="color: black">
             N'hésiter pas à me contacter par email
