@@ -26,9 +26,11 @@ if (process.env.NODE_ENV === "production") {
       console.log("Un nouveau contenu est disponible; Actualiser ...");
       const version = await getVersionApp();
       const versionLocal = localStorage.getItem("app_version");
+      console.log("hey", version);
       setTimeout(() => {
         //window.location.reload(true);
         if (versionLocal != version.data.version) {
+          console.log("bonjour");
           const dateUpdate = new Date();
           localStorage.clear();
           localStorage.setItem("app_version", version);
