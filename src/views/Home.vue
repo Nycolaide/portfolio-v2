@@ -88,6 +88,10 @@
           </v-card>
         </v-col>
       </v-row>
+      
+      <Section
+        desc="Les influenceurs qui me divertissent et m'inspire."
+      />
 
       <SlideGroups class="mt-3" style="margin: 0 auto;">
         <template v-slot:content>
