@@ -7,6 +7,7 @@ function generateVersion(version: any) {
 }
 
 export function ControlReleaseCore(release: any) {
+  console.log("ControlReleaseCore", release);
   const versionLocal = localStorage.getItem("app_version");
 
   store.commit("application/updateNotification", {
@@ -16,6 +17,7 @@ export function ControlReleaseCore(release: any) {
   });
 
   if (versionLocal) {
+    console.log("ControlReleaseCore je suis rentré", release, versionLocal);
     if (versionLocal !== release.data.version) {
       console.log("entrer");
       localStorage.clear();
