@@ -1,6 +1,10 @@
 /* eslint-disable no-console */
 
 import { register } from "register-service-worker";
+//core
+import { ControlReleaseCore } from "@/core/index";
+import { getVersionApp } from "@/utils/index";
+
 if (process.env.NODE_ENV === "production") {
   register(`${process.env.BASE_URL}service-worker.js`, {
     ready() {
@@ -23,6 +27,9 @@ if (process.env.NODE_ENV === "production") {
       //  setTimeout(() => {
       //    window.location.reload(true);
       //  }, 1000);
+      const version = getVersionApp();
+
+      ControlReleaseCore(version);
     },
     offline() {
       console.log(
