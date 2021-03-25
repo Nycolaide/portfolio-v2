@@ -17,6 +17,7 @@ export function ControlReleaseCore(release: any) {
 
   if (versionLocal) {
     if (versionLocal !== release.data.version) {
+      console.log("entrer");
       localStorage.clear();
       generateVersion(release.data.version);
     }
