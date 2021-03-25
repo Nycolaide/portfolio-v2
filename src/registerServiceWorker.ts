@@ -24,12 +24,11 @@ if (process.env.NODE_ENV === "production") {
     },
     updated() {
       console.log("Un nouveau contenu est disponible; Actualiser ...");
-      //  setTimeout(() => {
-      //    window.location.reload(true);
-      //  }, 1000);
       const version = getVersionApp();
-
-      ControlReleaseCore(version);
+      setTimeout(() => {
+        //window.location.reload(true);
+        ControlReleaseCore(version);
+      }, 1000);
     },
     offline() {
       console.log(

@@ -22,6 +22,7 @@ export function ControlReleaseCore(release: any) {
       console.log("entrer");
       localStorage.clear();
       generateVersion(release.data.version);
+      window.location.reload(true);
     }
   } else {
     generateVersion(release.data.version);
