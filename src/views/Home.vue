@@ -133,7 +133,7 @@
           style="color: black"
         >
           <v-card-title class="text-h5 font-weight-bold">
-            Vous voulez en s'avoir plus ?
+            Vous voulez en s'avoir plus ??
           </v-card-title>
           <v-card-text class="text-h6 font-weight-regular" style="color: black">
             N'hésiter pas à me contacter par email
