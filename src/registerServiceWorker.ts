@@ -22,12 +22,20 @@ if (process.env.NODE_ENV === "production") {
     updatefound() {
       console.log("New content is downloading.");
     },
-    updated() {
+    async updated() {
       console.log("Un nouveau contenu est disponible; Actualiser ...");
-      const version = getVersionApp();
+      const version = await getVersionApp();
+      const versionLocal = localStorage.getItem("app_version");
       setTimeout(() => {
         //window.location.reload(true);
-        ControlReleaseCore(version);
+        if (versionLocal != version.data.version) {
+          const dateUpdate = new Date();
+          localStorage.clear();
+          localStorage.setItem("app_version", version);
+          localStorage.setItem("app_updated", String(dateUpdate));
+
+          window.location.reload(true);
+        }
       }, 1000);
     },
     offline() {
