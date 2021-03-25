@@ -20,9 +20,9 @@ if (process.env.NODE_ENV === "production") {
     },
     updated() {
       console.log("Un nouveau contenu est disponible; Actualiser ...");
-      setTimeout(() => {
-        window.location.reload(true);
-      }, 1000);
+      //  setTimeout(() => {
+      //    window.location.reload(true);
+      //  }, 1000);
     },
     offline() {
       console.log(
