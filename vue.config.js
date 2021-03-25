@@ -21,9 +21,31 @@ const productionPlugins = [
 module.exports = {
   transpileDependencies: ["vuetify"],
   lintOnSave: false,
-  configureWebpack: config => {
-    if (process.env.NODE_ENV === "production") {
-      config.plugins.push(...productionPlugins);
-    }
+  //  configureWebpack: config => {
+  //    if (process.env.NODE_ENV === "production") {
+  //      config.plugins.push(...productionPlugins);
+  //      config.push(...developmentConfig);
+  //    }
+  //  },
+  runtimeCompiler: true,
+  filenameHashing: true,
+  outputDir: process.env.BUILD_DIR ? process.env.BUILD_DIR : "dist",
+  configureWebpack: {
+    devtool: "source-map",
+    output: {
+      filename: "[name].[hash:8].js",
+    },
   },
 };
+
+//const developmentConfig = {
+//  runtimeCompiler: true,
+//  filenameHashing: true,
+//  outputDir: process.env.BUILD_DIR ? process.env.BUILD_DIR : "dist",
+//  configureWebpack: {
+//    devtool: "source-map",
+//    output: {
+//      filename: "[name].[hash:8].js",
+//    },
+//  },
+//};
