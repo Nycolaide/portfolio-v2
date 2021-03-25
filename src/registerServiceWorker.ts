@@ -27,18 +27,16 @@ if (process.env.NODE_ENV === "production") {
       const version = await getVersionApp();
       const versionLocal = localStorage.getItem("app_version");
       console.log("hey", version);
-      setTimeout(() => {
-        //window.location.reload(true);
-        if (versionLocal != version.data.version) {
-          console.log("bonjour");
-          const dateUpdate = new Date();
-          localStorage.clear();
-          localStorage.setItem("app_version", version);
-          localStorage.setItem("app_updated", String(dateUpdate));
+      //window.location.reload(true);
+      if (versionLocal != version.data.version) {
+        console.log("bonjour");
+        const dateUpdate = new Date();
+        localStorage.clear();
+        localStorage.setItem("app_version", version);
+        localStorage.setItem("app_updated", String(dateUpdate));
 
-          window.location.reload(true);
-        }
-      }, 1000);
+        window.location.reload(true);
+      }
     },
     offline() {
       console.log(
