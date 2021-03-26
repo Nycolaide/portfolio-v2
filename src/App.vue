@@ -26,8 +26,8 @@
       <v-container class="content--app">
         <v-row class="align-center">
           <v-col cols="12" sm="10">
-            ©2021 - - - - - Laurent Grimaldi - Toutes les marques citées
-            appartiennent à leurs propriétaires respectifs. Version
+            ©2021 - Laurent Grimaldi - Toutes les marques citées appartiennent à
+            leurs propriétaires respectifs. Version
             {{ this.versionApp }}
           </v-col>
         </v-row>
