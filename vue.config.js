@@ -30,6 +30,11 @@ module.exports = {
   runtimeCompiler: true,
   filenameHashing: true,
   outputDir: process.env.BUILD_DIR ? process.env.BUILD_DIR : "dist",
+  pwa: {
+    workboxOptions: {
+      skipWaiting: true,
+    },
+  },
   configureWebpack: {
     devtool: "source-map",
     output: {

@@ -22,21 +22,13 @@ if (process.env.NODE_ENV === "production") {
     updatefound() {
       console.log("New content is downloading.");
     },
-    async updated() {
-      console.log("Un nouveau contenu est disponible; Actualiser ...");
-      const version = await getVersionApp();
-      const versionLocal = localStorage.getItem("app_version");
-      console.log("hey", versionLocal, version.data.version);
-      //window.location.reload(true);
-      if (versionLocal != version.data.version) {
-        console.log("bonjour");
-        const dateUpdate = new Date();
-        localStorage.clear();
-        localStorage.setItem("app_version", version);
-        localStorage.setItem("app_updated", String(dateUpdate));
-
-        window.location.reload(true);
-      }
+    updated(registration) {
+      console.log("New content is available: Please refresh.");
+      registration.update();
+      //  caches.keys().then(function(names) {
+      //    for (let name of names) caches.delete(name);
+      //  });
+      //  window.location.reload(true);
     },
     offline() {
       console.log(
