@@ -1,2 +1,6 @@
 User-agent: *
-Disallow:
+Sitemap: https://laurentgrimaldi.dev/sitemap.xml
+Allow: https://laurentgrimaldi.dev
+
+Disallow: https://www.laurentgrimaldi.dev
+Disallow: https://api.laurentgrimaldi.dev
