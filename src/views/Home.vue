@@ -155,6 +155,7 @@
       </v-container>
     </v-sheet>
 
+    <NavigationBottom />
     <Dialog />
   </div>
 </template>
@@ -169,6 +170,7 @@ import Hero from "@/components/Hero.vue";
 import User from "@/components/User.vue";
 import Categorie from "@/components/CardCategorie.vue";
 import Network from "@/components/Network.vue";
+import NavigationBottom from "@/components/modules/NavigationBottom.vue";
 
 //dialog
 import Dialog from "@/components/Dialog.vue";
@@ -192,6 +194,7 @@ export default Vue.extend({
     Network,
     Dialog,
     Header,
+    NavigationBottom,
     Mosaic,
   },
   data() {
