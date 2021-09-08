@@ -2,6 +2,14 @@
   <div class="home">
     <!--<Header />-->
     <v-sheet color="header">
+      <v-container>
+        <v-alert
+          dense
+          type="info"
+        >
+          Une nouvelle version du Portfolio est en cours de développement. Venez la tester sur : <strong><a href='https://minecore.laurentgrimaldi.dev' target='_blank'>https://minecore.laurentgrimaldi.dev</a></strong>. Cette version sera basé sur React/TypeScript.
+        </v-alert>
+      </v-container>
       <v-container class="pt-12 pb-16 content--app">
         <v-row align="center" class="mt-5 mb-5">
           <v-col cols="12" md="6">
@@ -155,7 +163,6 @@
       </v-container>
     </v-sheet>
 
-    <NavigationBottom />
     <Dialog />
   </div>
 </template>
@@ -170,7 +177,6 @@ import Hero from "@/components/Hero.vue";
 import User from "@/components/User.vue";
 import Categorie from "@/components/CardCategorie.vue";
 import Network from "@/components/Network.vue";
-import NavigationBottom from "@/components/modules/NavigationBottom.vue";
 
 //dialog
 import Dialog from "@/components/Dialog.vue";
@@ -194,7 +200,6 @@ export default Vue.extend({
     Network,
     Dialog,
     Header,
-    NavigationBottom,
     Mosaic,
   },
   data() {
